@@ -1,4 +1,51 @@
-﻿h1, h2{
+﻿header {
+    position: fixed;
+    background-color: #6C3BAA;
+    width: 100%;
+    z-index: 1;
+    top: 0px;
+}
+
+body {
+    padding-top: 60px;
+    border-top: 10px;
+    margin: 0;
+}
+
+footer {
+    background-color: #6C3BAA;
+    text-align: center;
+    color: #000;
+    z-index: 1;
+    font-weight: 300;
+    font-size: 20px;
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+}
+
+ul {
+    height: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+li {
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+a {
+    color: #000000;
+}
+
+a:hover {
+    color: #FFFFFF;
+}
+
+h1, h2, h3{
     font-family: Tahoma;
 }
 
@@ -6,6 +53,8 @@ p {
     font-family: 'Trebuchet MS';
 }
 
-.CodeSnippet {
-
+.Project {
+    height: 700px;
+    overflow: scroll;
+    width: 100%;
 }

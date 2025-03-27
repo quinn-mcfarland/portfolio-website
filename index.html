@@ -3,7 +3,7 @@
     <!--Site Metadata-->
 <head>
     <title>Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
     <meta name="author" content="Quinn McFarland">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -12,7 +12,6 @@
 
         <!--Site Header-->
         <header>
-            <h1>Project Navigation</h1>
             <nav>
                 <ul>
                     <li><a href="#console-casino">Console Casino</a></li>
@@ -29,8 +28,9 @@
                     <p>Console Casino was the very first project I ever made, and one I continue to update to this day.
                     It is a collection of casino games that operate within a console window, much like the title suggests.
                     </p>
-                    <script src="https://gist.github.com/quinn-mcfarland/6abf7394aad15e56d62ec0562c23b785.js" class="CodeSnippet"></script>
+                    
                 </article>
+                <aside class="Project"><script src="https://gist.github.com/quinn-mcfarland/6abf7394aad15e56d62ec0562c23b785.js"></script></aside>
             </section>
             <section id="object-oriented-programming">
                 <h2>Object Oriented Programming</h2>
@@ -40,8 +40,16 @@
                     name, contact information, address, degree, and both contact and address information for their alma mater. Data encapsulation,
                     template and composition classes, inheritance, polymorphism, and operator overloading are all included in the project, and a
                     UML compliant diagram of each class and its member functions and variables are included.</p>
-                    <script src="https://gist.github.com/quinn-mcfarland/5ded3fb7b6073689b8631096135d0dd7.js"></script>
                 </article>
+                <h3>C++ Demonstration</h3>
+                <figure>
+                    <!--Tab links-->
+                    <div>
+                        <button class="tablinks" onclick="openFile (event, FileBuilder.cpp)">FileBuilder.cpp</button>
+                        <button class="tablinks" onclick="openFile (event, PersonData.h)">PersonData.h</button>
+                        <button class="tablinks" onclick="openFile (event, PersonData.cpp)">PersonData.cpp</button>
+                    </div>
+                </figure>
             </section>
         </main>
 
