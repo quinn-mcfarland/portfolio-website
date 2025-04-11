@@ -15,7 +15,7 @@ body {
 footer {
     background-color: #6C3BAA;
     text-align: center;
-    color: #000;
+    color: #FFF;
     z-index: 1;
     font-weight: 300;
     font-size: 20px;
@@ -38,11 +38,7 @@ li {
 }
 
 a {
-    color: #000000;
-}
-
-a:hover {
-    color: #FFFFFF;
+    color: #FFF;
 }
 
 h1, h2, h3, h4{
